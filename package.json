@@ -1,0 +1,25 @@
+{
+  "name": "its-background-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hepiska/its-background-job.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hepiska/its-background-job/issues"
+  },
+  "homepage": "https://github.com/hepiska/its-background-job#readme",
+  "dependencies": {
+    "cron": "^1.2.1",
+    "express": "^4.15.2",
+    "kue": "^0.11.5",
+    "node-telegram-bot-api": "^0.27.0"
+  }
+}
